@@ -1,20 +1,30 @@
-- Clone the repo
+<h1 align="center">Welcome to p2pTransfer 👋</h1>
+<p>
+  <img src="https://img.shields.io/badge/node-%3E%3D18-blue.svg" />
+</p>
 
-```jsx
-git clone https://github.com/100xdevs-cohort-2/week-17-final-code
+> A p2p transfer wallet
+
+## Prerequisites
+
+- node >=18
+
+## Install
+
+```sh
+npm install
 ```
 
-- npm install
-- Run postgres either locally or on the cloud (neon.tech)
+## Author
 
-```jsx
-docker run  -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
-```
+👤 **Mrutunjay**
 
-- Copy over all .env.example files to .env
-- Update .env files everywhere with the right db url
-- Go to `packages/db`
-    - npx prisma migrate dev
-    - npx prisma db seed
-- Go to `apps/user-app` , run `npm run dev`
-- Try logging in using phone - 1111111111 , password - alice (See `seed.ts`)
+* Website: https://mjayportfolio.netlify.app/
+* Github: [@Mrityunjay1](https://github.com/Mrityunjay1)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
